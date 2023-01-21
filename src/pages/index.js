@@ -1,0 +1,5 @@
+export * from './Home'
+export * from './Hardware'
+export * from './Software'
+export * from './Dock'
+export * from './TechSpecs'

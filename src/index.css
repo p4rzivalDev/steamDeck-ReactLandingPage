@@ -1,0 +1,39 @@
+@font-face {
+  font-family: "Motiva Sans Light";
+  src: url("./assets/fonts/MotivaSansLight.ttf");
+}
+@font-face {
+  font-family: "Motiva Sans Regular";
+  src: url("./assets/fonts/MotivaSansRegular.ttf");
+}
+@font-face {
+  font-family: "Motiva Sans Medium";
+  src: url("./assets/fonts/MotivaSansMedium.ttf");
+}
+@font-face {
+  font-family: "Motiva Sans Bold";
+  src: url("./assets/fonts/MotivaSansBold.ttf");
+}
+
+:root {
+  /* fonts */ 
+  --f-light: "Motiva Sans Light", sans-serif;
+  --f-regular: "Motiva Sans Regular", sans-serif;
+  --f-medium: "Motiva Sans Medium", sans-serif;
+  --f-bold: "Motiva Sans Bold", sans-serif;
+
+  /* colors */
+  --bg-dark: #1B1B1B;
+  --bg-dark-accent: #5B5463;
+  --bg-light: #ffffff;
+
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+  color: var(--bg-light);
+}
